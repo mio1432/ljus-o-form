@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --outline: 1px dotted red;
+}
+body{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 40px 80px 500px 80px 500px 80px 500px 100px;
+    background: #f8f4f4;
+}
+.top{
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+#stuff{
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f4f4;
+}
+a{
+    font-size: 1.5rem;
+    color: black;
+}
+h1{
+    font-size: 3rem;
+    font-family: "Montserrat", serif;
+}
+.wedd{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 20px;
+}
+h2{
+    font-family: "Lora", serif;
+    font-size: 2rem;
+}
+.ga{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+#ett, #two, #tre{
+    display: flex;
+    
+}
+#ett img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-left: 50px;
+    
+}
+#two img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    
+}
+#tre img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-right: 50px;
+    
+}
+.port{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin: 20px;
+}
+.po{
+    grid-column: 1/5;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#fyra img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+#fem img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+}
+#se img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.fore{
+    grid-column: 1/2;
+    grid-row: 7/8;
+    margin: 20px;
+}
+.fo{
+    grid-column: 1/5;
+    grid-row: 8/9;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#sju img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+#atta img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+}
+#nio img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.o{
+    display: flex;
+    grid-row: 9/10;
+    grid-column: 1/2;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    
+}
+#one{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 9/10;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    background: grey;
+    margin-left: 20px;
+}
+
+#bi{
+    display: flex;
+    
+}
+.bi{
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 9/10;
+    justify-content: center;
+    background: grey;
+    
+}
+#bi img{
+    max-width: 100%;
+    max-height: 100%;
+    grid-row: 9/10;
+    grid-column: 2/4;
+}
+.t{
+    display: flex;
+    grid-row: 9/10;
+    grid-column: 4/5;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+#two{
+    display: flex;
+    grid-column: 4/5;
+    grid-row: 9/10;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    background: grey;
+    margin-right: 20px;
+}
+#bbg{
+    grid-column: 1/5;
+    grid-row: 3/9;
+    --background: #f8f4f4;
+}
+
